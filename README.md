@@ -122,6 +122,23 @@ TCP是为流量设计的（每秒内可以传输多少KB的数据），讲究的
    kcp->rx_minrto = 10;
    ```
 
+# 编译
+* Windows
+  * 运行脚本： 
+    ```
+    cmake_build.cmd
+    ```
+  * 前往cmake_build\KCP_VS2017目录，用VS2017打开KCP.sln
+  * 选择相应的项目进行编译或安装
+
+* Linux
+  ```bash
+  ./cmake_build.sh
+  ```
+
+
+##  使用
+
 
 # 文档索引
 

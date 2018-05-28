@@ -127,6 +127,19 @@ The protocol default mode is a standard ARQ, and various acceleration switches c
    kcp->rx_minrto = 10;
    ```
 
+# Build
+* Windows
+  * Run the script and generate VS project files 
+    ```
+    cmake_build.cmd
+    ```
+  * Entry directory: **cmake_build\KCP_VS2017**，open **KCP.sln** with VS2017
+  * Select the project to build or install
+
+* Linux
+  ```bash
+  ./cmake_build.sh
+  ```
 
 
 # Document Indexing
